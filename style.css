@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+	height: 100vh;
+	background-size: cover;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(
+		353deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(9, 9, 121, 1) 20%,
+		rgba(44, 135, 215, 1) 51%,
+		rgb(208, 237, 243) 100%
+	);
+}
+
+section {
+	padding: 0 5em;
+}
+#name {
+	padding: 20px 0px;
+}
+#location-form div {
+	margin-top: 10px;
+
+	width: 100%;
+	justify-content: space-around;
+	display: flex;
+}
+#location-form {
+	margin: 6em auto 4em auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 1.5rem;
+}
+#location-form input {
+	font-size: 1.5rem;
+	padding: 10px 7px;
+	border: none;
+	border-radius: 5px;
+}
+#location {
+	flex-grow: 2;
+	padding-left: 15px !important;
+	margin: auto 10px;
+	border-radius: 10px !important;
+}
+footer {
+	position: absolute;
+	text-align: right;
+	color: white;
+	width: 100%;
+	bottom: 0;
+	padding: 5px 10px;
+}
+footer a {
+	color: white;
+}
+
+#error {
+	color: red;
+}
+
+#location-name {
+	text-align: center;
+}
+
+#current-weather-container {
+	margin: 10px 30px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 1em 1.5em;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+#visual {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: center;
+}
+#current-weather {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: white;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://code.jquery.com/jquery-3.7.1.min.js"
+			integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+			crossorigin="anonymous"
+		></script>
+		<title>Weather App</title>
+	</head>
+	<body>
+		<section>
+			<h1 id="name">Weather App</h1>
+
+			<form id="location-form">
+				<label for="location">Location:</label>
+				<div>
+					<input
+						id="location"
+						name="location"
+						type="text"
+						placeholder="New York"
+					/>
+					<input type="submit" value="Search" />
+				</div>
+			</form>
+			<div id="content"></div>
+		</section>
+		<footer>
+			Powered by
+			<a href="https://www.weatherapi.com/" title="Free Weather API"
+				>WeatherAPI.com</a
+			>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
